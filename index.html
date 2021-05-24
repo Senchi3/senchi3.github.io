@@ -1,108 +1,147 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My first Bulma website</title>
-    <link rel="stylesheet" href="css/bulma.css">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" type="image/png" href="images/favicon.png"/>
-  </head>
-  <body>
-    <section class="hero is-small is-primary is-bold">
-      <div class="hero-body">
-        <div class="container">
-            <div class="columns is-vcentered is-multiline is-mobile">
-                <div class="column is-narrow">
-                    <figure class="image is-192x192">
-                        <img class="is-rounded" src="images/bgicon192.png">
-                    </figure>
-                </div>
-                <div class="column is-narrow">
-                    <h1 class="title is-1 is-white">
-                        Senchi3
-                    </h1>
-                    <h1 class="subtitle is-3 is-white">
-                        he/him · cs student
-                    </h1>
-                </div>
-            </div>
-        </div>
-    </div>
-    </section>
-    <section class="section" id="main">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My first Bulma website</title>
+  <script src="https://kit.fontawesome.com/47aa67d8f2.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/bulma.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+</head>
+
+<body>
+  <section class="hero is-small is-primary is-bold">
+    <div class="hero-body">
       <div class="container">
-        <div class="tile is-ancestor">
-          <div class="tile is-vertical is-8">
-            <div class="tile">
-              <div class="tile is-parent is-vertical">
-                <article class="tile is-child notification is-primary">
-                  <p class="title">Vertical...</p>
-                  <p class="subtitle">Top tile</p>
-                </article>
-                <article class="tile is-child notification is-warning">
-                  <p class="title">...tiles</p>
-                  <p class="subtitle">Bottom tile</p>
-                </article>
-              </div>
-              <div class="tile is-parent">
-                <article class="tile is-child notification is-info">
-                  <p class="title">Middle tile</p>
-                  <p class="subtitle">With an image</p>
-                  <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/640x480.png">
-                  </figure>
-                </article>
-              </div>
+        <div class="columns is-vcentered is-multiline is-mobile">
+          <div class="column is-narrow">
+            <figure class="image is-192x192">
+              <img class="is-rounded" src="images/bgicon192.png">
+            </figure>
+          </div>
+          <div class="column is-narrow">
+            <h1 class="title is-1 is-white">
+              Senchi3
+            </h1>
+            <h1 class="subtitle is-3 is-white">
+              he/him · cs student
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section" id="main">
+    <div class="container">
+      <div class="tile is-ancestor">
+        <div class="tile is-vertical is-8">
+          <div class="tile">
+            <div class="tile is-parent is-vertical">
+              <article class="tile is-child notification is-primary">
+                <p class="title">Vertical...</p>
+                <p class="subtitle">Top tile</p>
+              </article>
+              <article class="tile is-child notification is-warning">
+                <p class="title">...tiles</p>
+                <p class="subtitle">Bottom tile</p>
+              </article>
             </div>
             <div class="tile is-parent">
-              <article class="tile is-child notification is-danger">
-                <p class="title">Wide tile</p>
-                <p class="subtitle">Aligned with the right tile</p>
-                <div class="content">
-                  <!-- Content -->
-                </div>
+              <article class="tile is-child notification is-info">
+                <p class="title">Middle tile</p>
+                <p class="subtitle">With an image</p>
+                <figure class="image is-4by3">
+                  <img src="https://bulma.io/images/placeholders/640x480.png">
+                </figure>
               </article>
             </div>
           </div>
           <div class="tile is-parent">
-            <article class="tile is-child notification is-success">
+            <article class="tile is-child notification is-danger">
+              <p class="title">Wide tile</p>
+              <p class="subtitle">Aligned with the right tile</p>
               <div class="content">
-                <p class="title">Tall tile</p>
-                <p class="subtitle">With even more content</p>
-                <div class="content">
-                  <!-- Content -->
-                </div>
+                <!-- Content -->
               </div>
             </article>
           </div>
         </div>
-      </div>
-    </section>
-    <footer class="footer has-text-centered">
-      <div class="container">
-         <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
-            <p>
-              <strong class="has-text-weight-semibold">
-                <a href="https://www.npmjs.com/package/bulma-start">bulma-start@0.0.4</a>
-              </strong>
-            </p>
-            <p>
-              <small>
-                Source code licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
-              </small>
-            </p>
-            <p style="margin-top: 1rem;">
-              <a href="http://bulma.io">
-                <img src="images/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-              </a>
-            </p>
-          </div>
+        <div class="tile is-parent">
+          <article class="tile is-child notification is-success">
+            <div class="content">
+              <p class="title">Tall tile</p>
+              <p class="subtitle">With even more content</p>
+              <div class="content">
+                <!-- Content -->
+              </div>
+            </div>
+          </article>
         </div>
       </div>
-    </footer>
-    <script type="text/javascript" src="lib/main.js"></script>
-  </body>
+    </div>
+  </section>
+  <footer class="footer hero is-primary is-bold has-strong-bottom-shadow">
+    <div class="icons">
+
+      <a href="https://www.youtube.com/c/Senchi3" target="_blank" class="is-white">
+        <span class="icon is-large">
+          <i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+
+      <a href="https://www.twitch.tv/senchi3/" target="_blank" class="is-white">
+        <span class="icon is-large">
+          <i class="fab fa-twitch fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+
+      <a href="https://t.me/senchi3" target="_blank" class="is-white">
+        <span class="icon is-large">
+          <i class="fab fa-telegram-plane fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+
+      <a href="https://discord.bio/p/senchi3" target="_blank" class="is-white">
+        <span class="icon is-large">
+          <i class="fab fa-discord fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+
+      <a href="https://twitter.com/senchi3_" target="_blank" class="is-white">
+        <span class="icon is-large">
+          <i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+
+      <a href="https://github.com/senchi3" target="_blank" class="is-white">
+        <span class="icon is-large">
+          <i class="fab fa-github fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+
+      <a href="https://steamcommunity.com/id/senchi3/" target="_blank" class="is-white">
+        <span class="icon is-large">
+          <i class="fab fa-steam fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+
+      <a href="https://www.reddit.com/user/senchi3" target="_blank" class="is-white">
+        <span class="icon is-large">
+          <i class="fab fa-reddit fa-2x" aria-hidden="true"></i>
+        </span>
+      </a>
+    </div>
+
+    <div class="content">
+      <p>© 2021 <strong>Senchi3</strong><br>
+        website licensed under the <strong><a class="is-white" target="_blank"
+            href="https://github.com/senchi3/senchi3.github.io">mit license</a></strong></p>
+    </div>
+  </footer>
+  <script type="text/javascript" src="lib/main.js"></script>
+</body>
+
 </html>
