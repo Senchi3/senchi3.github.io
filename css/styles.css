@@ -1,0 +1,48 @@
+/*
+ *
+ * Dark & light mode variables
+ *
+ */
+
+ :root {
+    --bg-color: #f1f1f1;
+    --title-color: #363636;
+    --text-color: #4a4a4a;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-color: #292929;
+      --title-color: #f0f0f0;
+      --text-color: #e4e4e4;
+    }
+  }
+  
+  /*
+   *
+   * Colours
+   *
+   */
+  
+  body {
+    background-color: var(--bg-color);
+  }
+  
+  section .title,
+  .card-content .content .title {
+    color: var(--title-color);
+  }
+  
+  .section .subtitle,
+  .section p,
+  .card-content .content {
+    color: var(--text-color);
+  }
+  
+  .footer .content p strong {
+    color: white;
+  }
+  
+  .is-white {
+    color: white !important;
+  }

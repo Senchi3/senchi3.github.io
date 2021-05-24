@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My first Bulma website</title>
     <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/png" href="images/favicon.png"/>
   </head>
   <body>
@@ -32,126 +33,49 @@
     </section>
     <section class="section" id="main">
       <div class="container">
-        <div class="columns">
-          <div class="column">
-            <div class="box has-background-success-dark">
-              <div class="content">
-                <h3>What's included</h3>
-                <p>
-                  The <code>npm</code> dependencies included in <code>package.json</code> are:
-                </p>
-                <ul>
-                  <li>
-                    <code><a href="https://github.com/jgthms/bulma">bulma</a></code>
-                  </li>
-                  <li>
-                    <code><a href="https://github.com/sass/node-sass">node-sass</a></code> to compile your own Sass file
-                  </li>
-                  <li>
-                    <code><a href="https://github.com/postcss/postcss-cli">postcss-cli</a></code> and <code><a href="https://github.com/postcss/autoprefixer">autoprefixer</a></code> to add support for older browsers
-                  </li>
-                  <li>
-                    <code><a href="https://babeljs.io/docs/usage/cli/">babel-cli</a></code>,
-                    <code><a href="https://github.com/babel/babel-preset-env">babel-preset-env</a></code>
-                    and
-                    <code><a href="https://github.com/jmcriffey/babel-preset-es2015-ie">babel-preset-es2015-ie</a></code>
-                    for compiling ES6 JavaScript files
-                  </li>
-                </ul>
+        <div class="tile is-ancestor">
+          <div class="tile is-vertical is-8">
+            <div class="tile">
+              <div class="tile is-parent is-vertical">
+                <article class="tile is-child notification is-primary">
+                  <p class="title">Vertical...</p>
+                  <p class="subtitle">Top tile</p>
+                </article>
+                <article class="tile is-child notification is-warning">
+                  <p class="title">...tiles</p>
+                  <p class="subtitle">Bottom tile</p>
+                </article>
               </div>
-              <div class="field is-grouped">
-                <p class="control">
-                  <a class="button is-primary">
-                    Submit
-                  </a>
-                </p>
-                <p class="control">
-                  <a class="button is-light">
-                    Cancel
-                  </a>
-                </p>
+              <div class="tile is-parent">
+                <article class="tile is-child notification is-info">
+                  <p class="title">Middle tile</p>
+                  <p class="subtitle">With an image</p>
+                  <figure class="image is-4by3">
+                    <img src="https://bulma.io/images/placeholders/640x480.png">
+                  </figure>
+                </article>
               </div>
+            </div>
+            <div class="tile is-parent">
+              <article class="tile is-child notification is-danger">
+                <p class="title">Wide tile</p>
+                <p class="subtitle">Aligned with the right tile</p>
+                <div class="content">
+                  <!-- Content -->
+                </div>
+              </article>
             </div>
           </div>
-          <div class="column">
-            <div class="box has-background-warning-dark">
+          <div class="tile is-parent">
+            <article class="tile is-child notification is-success">
               <div class="content">
-                <h3>What's included</h3>
-                <p>
-                  The <code>npm</code> dependencies included in <code>package.json</code> are:
-                </p>
-                <ul>
-                  <li>
-                    <code><a href="https://github.com/jgthms/bulma">bulma</a></code>
-                  </li>
-                  <li>
-                    <code><a href="https://github.com/sass/node-sass">node-sass</a></code> to compile your own Sass file
-                  </li>
-                  <li>
-                    <code><a href="https://github.com/postcss/postcss-cli">postcss-cli</a></code> and <code><a href="https://github.com/postcss/autoprefixer">autoprefixer</a></code> to add support for older browsers
-                  </li>
-                  <li>
-                    <code><a href="https://babeljs.io/docs/usage/cli/">babel-cli</a></code>,
-                    <code><a href="https://github.com/babel/babel-preset-env">babel-preset-env</a></code>
-                    and
-                    <code><a href="https://github.com/jmcriffey/babel-preset-es2015-ie">babel-preset-es2015-ie</a></code>
-                    for compiling ES6 JavaScript files
-                  </li>
-                </ul>
+                <p class="title">Tall tile</p>
+                <p class="subtitle">With even more content</p>
+                <div class="content">
+                  <!-- Content -->
+                </div>
               </div>
-              <div class="field is-grouped">
-                <p class="control">
-                  <a class="button is-primary">
-                    Submit
-                  </a>
-                </p>
-                <p class="control">
-                  <a class="button is-light">
-                    Cancel
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="column">
-            <div class="box has-background-danger-dark">
-              <div class="content">
-                <h3>What's included</h3>
-                <p>
-                  The <code>npm</code> dependencies included in <code>package.json</code> are:
-                </p>
-                <ul>
-                  <li>
-                    <code><a href="https://github.com/jgthms/bulma">bulma</a></code>
-                  </li>
-                  <li>
-                    <code><a href="https://github.com/sass/node-sass">node-sass</a></code> to compile your own Sass file
-                  </li>
-                  <li>
-                    <code><a href="https://github.com/postcss/postcss-cli">postcss-cli</a></code> and <code><a href="https://github.com/postcss/autoprefixer">autoprefixer</a></code> to add support for older browsers
-                  </li>
-                  <li>
-                    <code><a href="https://babeljs.io/docs/usage/cli/">babel-cli</a></code>,
-                    <code><a href="https://github.com/babel/babel-preset-env">babel-preset-env</a></code>
-                    and
-                    <code><a href="https://github.com/jmcriffey/babel-preset-es2015-ie">babel-preset-es2015-ie</a></code>
-                    for compiling ES6 JavaScript files
-                  </li>
-                </ul>
-              </div>
-              <div class="field is-grouped">
-                <p class="control">
-                  <a class="button is-primary">
-                    Submit
-                  </a>
-                </p>
-                <p class="control">
-                  <a class="button is-light">
-                    Cancel
-                  </a>
-                </p>
-              </div>
-            </div>
+            </article>
           </div>
         </div>
       </div>
