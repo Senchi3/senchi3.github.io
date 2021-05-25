@@ -8,6 +8,7 @@
     --bg-color: #f1f1f1;
     --title-color: #363636;
     --text-color: #4a4a4a;
+    --dark-text-color: #1b1b1b;
   }
   
   @media (prefers-color-scheme: dark) {
@@ -15,6 +16,7 @@
       --bg-color: #292929;
       --title-color: #f0f0f0;
       --text-color: #e4e4e4;
+      --dark-text-color: #363636;
     }
   }
   
@@ -28,20 +30,16 @@
     background-color: var(--bg-color);
   }
   
+
+  /* Add back in case ur not using tiles
   section .title,
   .card-content .content .title {
     color: var(--title-color);
   }
   
-  .section .subtitle,
-  .section p,
-  .card-content .content {
-    color: var(--text-color);
-  }
-  
   .footer .content p strong {
     color: white;
-  }
+  }*/
   
   .is-white {
     color: white !important;
